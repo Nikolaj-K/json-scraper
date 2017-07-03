@@ -1,5 +1,5 @@
-import time
 import os
+import time
 import json
 import urllib
 
@@ -30,5 +30,5 @@ with open(filename, 'w') as outfile:
 #     # <add some code here>
 #     time.sleep(10*MIN)
 
-#with open(file_name) as infile:
+#with open(filename) as infile:
 #    loaded_data = json.load(infile)
