@@ -21,7 +21,7 @@ filename = 'my_data.json'
 with open(filename, 'w') as outfile:
     json.dump(data, outfile) # write Python data into a file
 
-# MINUTES = 60 # sixty seconds
+# MINUTES = 60 # seconds
 # for i in range(12*60*MINUTES):
 #     print(i)
 #     # <add some code here>
