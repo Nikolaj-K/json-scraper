@@ -3,9 +3,6 @@ import time
 import json
 import urllib
 
-unix_time = str(int(time.time()))
-print(unix_time)
-
 dir_path_file = os.path.realpath(__file__) # Get the director path of this file
 dir_path_this = os.path.dirname(dir_path_file)
 os.chdir(dir_path_this) # Set the working directory to the folder we are in
