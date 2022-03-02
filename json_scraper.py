@@ -22,10 +22,10 @@ with open(filename, 'w') as outfile:
     json.dump(data, outfile) # write Python data into a file
 
 # MINUTES = 60 # seconds
-# for i in range(12*60*MINUTES):
+# for i in range(12 * 60 * MINUTES):
 #     print(i)
 #     # <add some code here>
-#     time.sleep(10*MIN)
+#     time.sleep(10 * MINUTES)
 
 #with open(filename) as infile:
 #    loaded_data = json.load(infile)
